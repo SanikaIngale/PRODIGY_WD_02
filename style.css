@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-image:url(https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    margin-top:5%;
+    text-align: center;
+    color:white;
+    font-family: 'Kalnia', serif;
+    font-size: 5em;
+}
+.display{
+    margin:0 auto;
+    margin-top:5%;
+    color:white;
+    width:80%;
+    text-align: center;
+    font-size:8.5em;
+    border-radius:5px;
+}
+.functions{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    
+}
+button{
+    width:20%;
+    margin:1em;
+    font-size:2.5em;
+    border-radius:40px;
+    border:none;
+    font-family:'Roboto', 'Arial', 
+    sans-serif;
+    background-color:#ffffff;
+    color:black;
+    font-weight:500;
+    text-align: center;
+    cursor:pointer;
+}
+button:hover{
+    background-color:black;
+    color:#ffffff;
+}
+#lapTimesContainer{
+    color:#000000;
+    font-size: 2em;
+    text-align: center;
+    background-color: #ffffff;width:71%;
+    margin:0 auto;
+    border-radius: 40px;
+    font-family:'Roboto', 'Arial', 
+    sans-serif;
+   
+}
+ul{
+    list-style-type: none;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:2em;
+    }
+    .display {
+        font-size: 10vw;
+    }
+
+    button {
+        width: 90%;
+        font-size: 10vw;
+    }
+}
